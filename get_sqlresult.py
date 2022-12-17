@@ -134,16 +134,3 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = read_excel()
     sys.exit(app.exec_())
-
-
-'''
-# -*- coding:utf-8 -*-
-# !/usr/bin/env python
-import pandas,PyQt5
-# header参数定义首列位置
-df = pandas.read_excel('D:\\Personal_doc\\pyfile\\dataform.xlsx',header=0)
-# 展示所有列名称
-print(df.columns)
-# 展示特定列的值
-print(df)
-'''
